@@ -10,7 +10,7 @@
     "acceptance",
     "testing"
   ],
-  "repository": "https://github.com/joefitzgerald/tester",
+  "repository": "https://github.com/atom-community/tester",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -18,7 +18,7 @@
   "author": "Joe Fitzgerald <jfitzgerald@pivotal.io> (http://github.com/joefitzgerald)",
   "homepage": "https://atom.io/packages/tester",
   "bugs": {
-    "url": "https://github.com/joefitzgerald/tester/issues"
+    "url": "https://github.com/atom-community/tester/issues"
   },
   "dependencies": {},
   "devDependencies": {
