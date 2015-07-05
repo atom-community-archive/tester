@@ -1,7 +1,7 @@
 {
   "name": "tester",
   "main": "./lib/tester",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Runs your tests and displays the output.",
   "keywords": [
     "test",
@@ -20,8 +20,7 @@
   "bugs": {
     "url": "https://github.com/joefitzgerald/tester/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "coffeelint": ">=1.8.1",
     "temp": ">=0.8.1",
