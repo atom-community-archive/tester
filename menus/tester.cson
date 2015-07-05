@@ -1,0 +1,29 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Run Tests (Current File)'
+      'command': 'tester:runfiletests'
+    },
+    {
+      'label': 'Run Tests (Current Project)'
+      'command': 'tester:runprojecttests'
+    },
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'tester'
+      'submenu': [
+        {
+          'label': 'Run Tests (Current File)'
+          'command': 'tester:runfiletests'
+        },
+        {
+          'label': 'Run Tests (Current Project)'
+          'command': 'tester:runprojecttests'
+        }
+      ]
+    ]
+  }
+]

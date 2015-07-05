@@ -1,0 +1,32 @@
+{
+  "name": "tester",
+  "main": "./lib/tester",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "test",
+    "unit",
+    "integration",
+    "acceptance",
+    "testing"
+  ],
+  "repository": "https://github.com/atom/tester",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffeelint": ">=1.8.1",
+    "temp": ">=0.8.1",
+    "underscore-plus": "1.x"
+  },
+  "consumedServices": {
+    "tester.provider": {
+      "versions": {
+        "0.1.0": "consumeProvider"
+      }
+    }
+  }
+}
